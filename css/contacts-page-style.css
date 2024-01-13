@@ -6462,6 +6462,31 @@ input[name=username] {
   padding: 1rem;
 }
 
+.form-hrz__inp-box {
+  height: 3rem;
+}
+
+.form-hrz__btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  height: 3rem;
+}
+
+.form-hrz__btn i {
+  max-width: 1rem;
+  min-width: 1rem;
+  max-height: 1rem;
+  min-height: 1rem;
+}
+
+.form-hrz__btn .ic-l {
+  margin-right: 1rem;
+}
+
+.form-hrz__btn .ic-r {
+  margin-left: 1rem;
+}
+
 .form-hrz__chk-wrp {
   margin-top: 0;
 }
@@ -8789,6 +8814,9 @@ button.swiper-pagination-bullet {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -8801,6 +8829,10 @@ button.swiper-pagination-bullet {
 
   .form-hrz__inp > *:last-child {
     margin-right: 0;
+  }
+
+  .form-hrz__inp-box {
+    width: auto;
   }
 
   .form-hrz__chk-wrp {
