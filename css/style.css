@@ -7480,6 +7480,7 @@ html.with-fancybox header.hdr--fixed {
 
   .navofc__container {
     max-width: 480px;
+    border-radius: 24px 0px 0px 24px;
   }
 
   .navofc__elements a {

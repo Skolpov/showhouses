@@ -5668,6 +5668,10 @@ button.swiper-pagination-bullet {
   z-index: 1030;
 }
 
+html.with-fancybox header.hdr--fixed {
+  padding-right: calc(var(--fancybox-body-margin, 0px) + var(--fancybox-scrollbar-compensate, 0px));
+}
+
 /* ↑ ---- */
 
 /* == КОНЕЦ БЛОКА «ШАПКА» */
@@ -6712,6 +6716,7 @@ button.swiper-pagination-bullet {
 
   .navofc__container {
     max-width: 480px;
+    border-radius: 24px 0px 0px 24px;
   }
 
   .navofc__elements a {
@@ -7417,6 +7422,12 @@ button.swiper-pagination-bullet {
 
   .header__btn-menu {
     display: none;
+  }
+
+  .hdr--fixed .header__btn-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 
   .breadcrumbs__row {
