@@ -6548,7 +6548,7 @@ html.with-fancybox header.hdr--fixed {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1140px) {
   .animate__animated {
     /*CSS transitions*/
     -webkit-transition-property: none !important;
